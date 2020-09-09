@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+   <ImageView
+       android:id="@+id/imageView"
+       android:layout_width="169dp"
+       android:layout_height="168dp"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.498"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.232"
+       app:srcCompat="@drawable/doctor" />
+
+
+   <Button
+       android:id="@+id/doctor"
+       android:layout_width="300dp"
+       android:layout_height="50dp"
+       android:text="Doctor"
+       android:textColor="#4CAF50"
+       android:textAllCaps="false"
+       android:fontFamily="@font/autour_one"
+       android:textSize="20sp"
+       android:background="@drawable/buttonshape"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.621"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.811">
+
+   </Button>
+
+   <Button
+       android:id="@+id/patient"
+       android:layout_width="300dp"
+       android:layout_height="50dp"
+       android:text="Patient"
+       android:textAllCaps="false"
+       android:textColor="#9C27B0"
+       android:fontFamily="@font/autour_one"
+       android:textSize="20sp"
+       android:background="@drawable/buttonshape"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.616"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.94">
+
+   </Button>
+
+   <Button
+       android:id="@+id/admin"
+       android:layout_width="300dp"
+       android:layout_height="50dp"
+       android:background="@drawable/buttonshape"
+       android:text="Admin"
+       android:textColor="#F44336"
+       android:fontFamily="@font/autour_one"
+       android:textAllCaps="false"
+       android:textSize="20sp"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.621"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.686">
+
+   </Button>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

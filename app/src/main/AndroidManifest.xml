@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.e_doctor">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ViewDoctorDetailsActivity"></activity>
+        <activity android:name=".ViewUserDetailsActivity" />
+        <activity android:name=".ViewFeedbackActivity" />
+        <activity android:name=".AdminsendrequestActivity" />
+        <activity android:name=".AdminViewDoctorActivity" />
+        <activity android:name=".ViewBookActivity" />
+        <activity android:name=".BookActivity" />
+        <activity android:name=".FeedbackActivity" />
+        <activity android:name=".ListviewDetailsActivity" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAN5ICz5HwoSCLFyR5dpldabaPmqchcTBI" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".TypeselectActivity" />
+        <activity android:name=".AdminHomeActivity" />
+        <activity android:name=".UserMainActivity" />
+        <activity android:name=".DoctorMainActivity" />
+        <activity android:name=".AdminLoginActivity" />
+        <activity android:name=".UserHomeActivity" />
+        <activity android:name=".DoctorHomeActivity" />
+        <activity android:name=".DoctorRegisterActivity" />
+        <activity android:name=".DoctorLoginActivity" />
+        <activity android:name=".UserLoginActivity" />
+        <activity android:name=".UserRegisterActivity" />
+        <activity android:name=".HomePgaeActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

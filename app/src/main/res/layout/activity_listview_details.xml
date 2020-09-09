@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3EBEB"
+    tools:context=".ListviewDetailsActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="106dp"
+        android:layout_height="101dp"
+        android:src="@drawable/dot"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.15">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/doctorname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:fontFamily="@font/autour_one"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.293">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/doctorspeclist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#4CAF50"
+        android:textSize="20sp"
+        android:fontFamily="@font/autour_one"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.335">
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/doctorphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/autour_one"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="5sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+    </TextView>
+
+    <androidx.cardview.widget.CardView
+
+        android:id="@+id/cardView"
+        android:layout_width="400dp"
+        app:cardCornerRadius="5dp"
+        android:layout_height="78dp"
+
+        android:layout_marginTop="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.387">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#FFC107"
+            android:layout_gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/imagephone"
+            android:layout_width="50dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="25dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_phone_black_24dp" />
+
+            <ImageView
+                android:id="@+id/imagemessage"
+                android:layout_width="50dp"
+                android:layout_height="75dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="50dp"
+                android:onClick="imagemessage"
+                android:src="@drawable/ic_email_black_24dp" />
+
+            <ImageView
+                android:id="@+id/imagelocation"
+                android:layout_width="50dp"
+                android:layout_height="75dp"
+                android:layout_marginStart="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_location_on_black_24dp" />
+
+            <ImageView
+                android:id="@+id/imagefeedback"
+                android:layout_width="50dp"
+                android:layout_height="75dp"
+                android:layout_marginStart="50dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_feedback_black_24dp" />
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/doctorfees"
+        android:layout_width="184dp"
+        android:layout_height="28dp"
+        android:text="Fees"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.584">
+
+    </TextView>
+
+
+    <TextView
+        android:id="@+id/fees"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="#009688"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.661">
+
+    </TextView>
+
+    <TextView
+
+        android:layout_width="203dp"
+        android:layout_height="28dp"
+        android:text="Timings"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.583">
+
+    </TextView>
+
+    <TextView
+
+        android:layout_width="187dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button"
+        android:textAlignment="center"
+        android:textColor="#0C0C0C"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:text="10.00am - 8.00pm"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.977"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.662">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/bu_start_search"
+        android:layout_width="299dp"
+        android:layout_height="67dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/rounded_button_selector_blue"
+        android:text="Request Appointment"
+        android:fontFamily="@font/autour_one"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.58"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.952" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">E-Doctor</string>
+
+    <string-array name="works">
+        <item>Select Speclist</item>
+        <item>Dermatologists</item>
+        <item>Allergists</item>
+        <item>Ophthalmologists</item>
+        <item>Obstetrician</item>
+        <item>Cardiologists</item>
+        <item>Endocrinologists</item>
+        <item>Gastroenterologists</item>
+    </string-array>
+
+
+    <string-array name="feedback">
+    <item>Accepted the Request</item>
+    <item>Denied the Request</item>
+
+    </string-array>
+
+</resources>

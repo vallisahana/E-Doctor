@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#92E7DF"
+    tools:context=".AdminHomeActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Admin Home"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#F00808"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.058">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape"
+        android:onClick="userdetail"
+        android:text= "User Details"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.585"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.339">
+
+    </Button>
+
+
+    <Button
+        android:id="@+id/viewdoctor"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape"
+        android:onClick="doctordetail"
+        android:text="Doctor Details"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.585"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499">
+
+    </Button>
+
+    <Button
+        android:id="@+id/patient"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape"
+        android:onClick="doctorprofile"
+        android:text="Manage Doctor Profile"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.585"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.666">
+
+    </Button>
+
+    <TextView
+        android:layout_width="294dp"
+        android:layout_height="58dp"
+        android:onClick="logout"
+        android:text="Logout"
+        android:textAlignment="viewEnd"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.606"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+    </TextView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

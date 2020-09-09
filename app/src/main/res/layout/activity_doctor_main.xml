@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C0E3F1"
+    tools:context=".DoctorMainActivity">
+
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape"
+        android:text="View Appointment"
+        android:textAllCaps="false"
+        android:onClick="viewappointment"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.464">
+
+    </Button>
+
+    <Button
+        android:id="@+id/patient"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape"
+        android:text="View Feedback"
+        android:onClick="viewfeedback"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.638">
+
+    </Button>
+
+    <Button
+        android:id="@+id/admin"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape"
+        android:text="Add Details"
+        android:textAllCaps="false"
+        android:onClick="AddDetails"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.302">
+
+    </Button>
+
+    <TextView
+        android:layout_width="294dp"
+        android:layout_height="58dp"
+        android:onClick="logout"
+        android:text="Logout"
+        android:textAlignment="viewEnd"
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.606"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+    </TextView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1064912690259",
+    "firebase_url": "https://e-doctor-115c6.firebaseio.com",
+    "project_id": "e-doctor-115c6",
+    "storage_bucket": "e-doctor-115c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1064912690259:android:535c366892353bfc7e7aa6",
+        "android_client_info": {
+          "package_name": "com.example.e_doctor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1064912690259-gioe3k3agsqurfe02gcgd50ethgpj7r9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.e_doctor",
+            "certificate_hash": "620973fd44e0a19ffdaaa67f582ad28abf14a5f5"
+          }
+        },
+        {
+          "client_id": "1064912690259-bpd680reicpr0fngcjoli4rvkn21f6go.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3wl1SoXHAO6rHq4Higq50DPOr0Mi1i3c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1064912690259-bpd680reicpr0fngcjoli4rvkn21f6go.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
